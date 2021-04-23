@@ -96,14 +96,14 @@ const gameOver = (win) => {
         if(confirm('Player X Won' + '\n' + 'Press OK to restart')){
             document.location.reload();
         }
-        else window.open("exit.html", "Thanks for playing!");
+        else window.close;
         
     }
     else {
         if(confirm('Player 0 Won' + '\n' + 'Press OK to restart')){
             document.location.reload();
         }
-        else window.open("exit.html", "Thanks for playing!");
+        else window.close()
         
     }
     }
